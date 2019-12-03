@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/choose_alarms"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/alarm1_time"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/alarm_1" />
+
+            <Button
+                android:id="@+id/cancel_alarm1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorSecondaryDark"
+                android:textStyle="bold"
+                android:text="@string/cancel_alarm_1"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chosen_time_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/set_alarm_1"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorSecondaryLight" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/alarm2_time"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/alarm_2" />
+
+            <Button
+                android:id="@+id/cancel_alarm2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorSecondaryDark"
+                android:textStyle="bold"
+                android:text="@string/cancel_alarm_2"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chosen_time_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/set_alarm_2"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/colorSecondaryLight" />
+    </LinearLayout>
+
+</LinearLayout>

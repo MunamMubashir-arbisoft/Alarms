@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "640574473809",
+    "firebase_url": "https://analyticsdemo-b9d95.firebaseio.com",
+    "project_id": "analyticsdemo-b9d95",
+    "storage_bucket": "analyticsdemo-b9d95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640574473809:android:344e1aa71163798ce51a70",
+        "android_client_info": {
+          "package_name": "com.example.alarms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640574473809-vaklql2rvp3hob2bf3na19sa64olnv6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXhPu4Str4Meh3Ut31b6lv9Iq_D6qzDe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640574473809-vaklql2rvp3hob2bf3na19sa64olnv6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

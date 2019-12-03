@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Alarms</string>
+    <string name="alarm_1">Alarm 1</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="alarm_2">Alarm 2</string>
+    <string name="choose_alarms">Choose Alarms</string>
+    <string name="cancel_alarm_1">Cancel alarm 1</string>
+    <string name="cancel_alarm_2">Cancel Alarm 2</string>
+    <string name="set_alarm_1">Set Alarm 1</string>
+    <string name="set_alarm_2">Set Alarm 2</string>
+</resources>
